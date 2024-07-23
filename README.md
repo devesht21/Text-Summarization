@@ -1,18 +1,7 @@
+
 <p align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/6295/6295417.png" width="100" />
+    <h1 align="center">Text Summarization</h1>
 </p>
-<p align="center">
-    <h1 align="center">TEXT-SUMMARIZATION</h1>
-</p>
-<p align="center">
-    <em>HTTP error 429 for prompt `slogan`</em>
-</p>
-<p align="center">
-	<img src="https://img.shields.io/github/license/devesht21/Text-Summarization?style=flat&color=0080ff" alt="license">
-	<img src="https://img.shields.io/github/last-commit/devesht21/Text-Summarization?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-	<img src="https://img.shields.io/github/languages/top/devesht21/Text-Summarization?style=flat&color=0080ff" alt="repo-top-language">
-	<img src="https://img.shields.io/github/languages/count/devesht21/Text-Summarization?style=flat&color=0080ff" alt="repo-language-count">
-<p>
 <p align="center">
 		<em>Developed with the software and tools below.</em>
 </p>
