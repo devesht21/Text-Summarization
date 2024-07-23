@@ -15,7 +15,6 @@
 	<img src="https://img.shields.io/badge/FastAPI-009688.svg?style=flat&logo=FastAPI&logoColor=white" alt="FastAPI">
 </p>
 <hr>
----
 
 ##  Overview
 
@@ -168,6 +167,6 @@ Once your PR is reviewed and approved, it will be merged into the main branch.
 
 ##  License
 
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+This project is protected under the [MIT LICENSE]([https://choosealicense.com/licenses](https://choosealicense.com/licenses/mit/)) License.
 
 ---
