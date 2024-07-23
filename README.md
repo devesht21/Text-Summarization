@@ -19,29 +19,22 @@
 ##  Quick Links
 
 > - [ Overview](#-overview)
-> - [ Features](#-features)
 > - [ Repository Structure](#-repository-structure)
-> - [ Modules](#-modules)
 > - [ Getting Started](#-getting-started)
 >   - [ Installation](#-installation)
->   - [ Running Text-Summarization](#-running-Text-Summarization)
->   - [ Tests](#-tests)
-> - [ Project Roadmap](#-project-roadmap)
+>   - [ Training Model for Text Summarization](#-training-Model-for-Text-Summarization)
+>   - [ Running Web App](#-running-Web-App)
 > - [ Contributing](#-contributing)
 > - [ License](#-license)
-> - [ Acknowledgments](#-acknowledgments)
 
 ---
 
 ##  Overview
 
-HTTP error 429 for prompt `overview`
+This Project is a Web Application that summarizes long text into a summary using a transformer model.  The main technologies used in this project are Python, Flask, transformers, and Fast API. The pipeline implemented is as follows:
 
----
+Data Ingestion -> Data validation -> Data transformation -> Model training -> Model Evaluation -> Predictions -> API -> Web Application
 
-##  Features
-
-HTTP error 429 for prompt `features`
 
 ---
 
@@ -98,84 +91,6 @@ HTTP error 429 for prompt `features`
     └── template.py
 ```
 
----
-
-##  Modules
-
-<details closed><summary>.</summary>
-
-| File                                                                                             | Summary                                      |
-| ---                                                                                              | ---                                          |
-| [main.py](https://github.com/devesht21/Text-Summarization/blob/master/main.py)                   | HTTP error 429 for prompt `main.py`          |
-| [template.py](https://github.com/devesht21/Text-Summarization/blob/master/template.py)           | HTTP error 429 for prompt `template.py`      |
-| [setup.py](https://github.com/devesht21/Text-Summarization/blob/master/setup.py)                 | HTTP error 429 for prompt `setup.py`         |
-| [params.yaml](https://github.com/devesht21/Text-Summarization/blob/master/params.yaml)           | HTTP error 429 for prompt `params.yaml`      |
-| [requirements.txt](https://github.com/devesht21/Text-Summarization/blob/master/requirements.txt) | HTTP error 429 for prompt `requirements.txt` |
-| [app.py](https://github.com/devesht21/Text-Summarization/blob/master/app.py)                     | HTTP error 429 for prompt `app.py`           |
-
-</details>
-
-<details closed><summary>config</summary>
-
-| File                                                                                          | Summary                                        |
-| ---                                                                                           | ---                                            |
-| [config.yaml](https://github.com/devesht21/Text-Summarization/blob/master/config/config.yaml) | HTTP error 429 for prompt `config/config.yaml` |
-
-</details>
-
-<details closed><summary>research</summary>
-
-| File                                                                                                                        | Summary                                                        |
-| ---                                                                                                                         | ---                                                            |
-| [model_evalution.ipynb](https://github.com/devesht21/Text-Summarization/blob/master/research/model_evalution.ipynb)         | HTTP error 429 for prompt `research/model_evalution.ipynb`     |
-| [data_transformation.ipynb](https://github.com/devesht21/Text-Summarization/blob/master/research/data_transformation.ipynb) | HTTP error 429 for prompt `research/data_transformation.ipynb` |
-| [model_trainer.ipynb](https://github.com/devesht21/Text-Summarization/blob/master/research/model_trainer.ipynb)             | HTTP error 429 for prompt `research/model_trainer.ipynb`       |
-| [data_ingestion.ipynb](https://github.com/devesht21/Text-Summarization/blob/master/research/data_ingestion.ipynb)           | HTTP error 429 for prompt `research/data_ingestion.ipynb`      |
-| [data_validation.ipynb](https://github.com/devesht21/Text-Summarization/blob/master/research/data_validation.ipynb)         | HTTP error 429 for prompt `research/data_validation.ipynb`     |
-| [trials.ipynb](https://github.com/devesht21/Text-Summarization/blob/master/research/trials.ipynb)                           | HTTP error 429 for prompt `research/trials.ipynb`              |
-
-</details>
-
-<details closed><summary>src.textSummarizer.utils</summary>
-
-| File                                                                                                        | Summary                                                        |
-| ---                                                                                                         | ---                                                            |
-| [common.py](https://github.com/devesht21/Text-Summarization/blob/master/src/textSummarizer/utils/common.py) | HTTP error 429 for prompt `src/textSummarizer/utils/common.py` |
-
-</details>
-
-<details closed><summary>src.textSummarizer.components</summary>
-
-| File                                                                                                                                       | Summary                                                                          |
-| ---                                                                                                                                        | ---                                                                              |
-| [data_validation.py](https://github.com/devesht21/Text-Summarization/blob/master/src/textSummarizer/components/data_validation.py)         | HTTP error 429 for prompt `src/textSummarizer/components/data_validation.py`     |
-| [model_trainer.py](https://github.com/devesht21/Text-Summarization/blob/master/src/textSummarizer/components/model_trainer.py)             | HTTP error 429 for prompt `src/textSummarizer/components/model_trainer.py`       |
-| [data_transformation.py](https://github.com/devesht21/Text-Summarization/blob/master/src/textSummarizer/components/data_transformation.py) | HTTP error 429 for prompt `src/textSummarizer/components/data_transformation.py` |
-| [data_ingestion.py](https://github.com/devesht21/Text-Summarization/blob/master/src/textSummarizer/components/data_ingestion.py)           | HTTP error 429 for prompt `src/textSummarizer/components/data_ingestion.py`      |
-| [model_evalution.py](https://github.com/devesht21/Text-Summarization/blob/master/src/textSummarizer/components/model_evalution.py)         | HTTP error 429 for prompt `src/textSummarizer/components/model_evalution.py`     |
-
-</details>
-
-<details closed><summary>src.textSummarizer.config</summary>
-
-| File                                                                                                                       | Summary                                                                |
-| ---                                                                                                                        | ---                                                                    |
-| [configuration.py](https://github.com/devesht21/Text-Summarization/blob/master/src/textSummarizer/config/configuration.py) | HTTP error 429 for prompt `src/textSummarizer/config/configuration.py` |
-
-</details>
-
-<details closed><summary>src.textSummarizer.pipeline</summary>
-
-| File                                                                                                                                                       | Summary                                                                                 |
-| ---                                                                                                                                                        | ---                                                                                     |
-| [stage_05_model_evaluation.py](https://github.com/devesht21/Text-Summarization/blob/master/src/textSummarizer/pipeline/stage_05_model_evaluation.py)       | HTTP error 429 for prompt `src/textSummarizer/pipeline/stage_05_model_evaluation.py`    |
-| [stage_03_data_transformation.py](https://github.com/devesht21/Text-Summarization/blob/master/src/textSummarizer/pipeline/stage_03_data_transformation.py) | HTTP error 429 for prompt `src/textSummarizer/pipeline/stage_03_data_transformation.py` |
-| [stage_02_data_validation.py](https://github.com/devesht21/Text-Summarization/blob/master/src/textSummarizer/pipeline/stage_02_data_validation.py)         | HTTP error 429 for prompt `src/textSummarizer/pipeline/stage_02_data_validation.py`     |
-| [prediction.py](https://github.com/devesht21/Text-Summarization/blob/master/src/textSummarizer/pipeline/prediction.py)                                     | HTTP error 429 for prompt `src/textSummarizer/pipeline/prediction.py`                   |
-| [stage_04_model_trainer.py](https://github.com/devesht21/Text-Summarization/blob/master/src/textSummarizer/pipeline/stage_04_model_trainer.py)             | HTTP error 429 for prompt `src/textSummarizer/pipeline/stage_04_model_trainer.py`       |
-| [stage_01_data_ingestion.py](https://github.com/devesht21/Text-Summarization/blob/master/src/textSummarizer/pipeline/stage_01_data_ingestion.py)           | HTTP error 429 for prompt `src/textSummarizer/pipeline/stage_01_data_ingestion.py`      |
-
-</details>
 
 ---
 
@@ -185,7 +100,7 @@ HTTP error 429 for prompt `features`
 
 Ensure you have the following dependencies installed on your system:
 
-* **Python**: `version x.y.z`
+* **Python**: `version 3.10.0`
 
 ###  Installation
 
@@ -207,7 +122,7 @@ cd Text-Summarization
 pip install -r requirements.txt
 ```
 
-###  Running Text-Summarization
+###  Training Model for Text Summarization
 
 Use the following command to run Text-Summarization:
 
@@ -215,21 +130,14 @@ Use the following command to run Text-Summarization:
 python main.py
 ```
 
-###  Tests
 
-To execute tests, run:
+###  Running Web App
+
+Use the following command to run Text-Summarization:
 
 ```sh
-pytest
+python app.py
 ```
-
----
-
-##  Project Roadmap
-
-- [X] `► INSERT-TASK-1`
-- [ ] `► INSERT-TASK-2`
-- [ ] `► ...`
 
 ---
 
@@ -275,10 +183,6 @@ Once your PR is reviewed and approved, it will be merged into the main branch.
 This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
 
 ---
-
-##  Acknowledgments
-
-- List any resources, contributors, inspiration, etc. here.
 
 [**Return**](#-quick-links)
 
