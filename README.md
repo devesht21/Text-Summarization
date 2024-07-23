@@ -15,18 +15,6 @@
 	<img src="https://img.shields.io/badge/FastAPI-009688.svg?style=flat&logo=FastAPI&logoColor=white" alt="FastAPI">
 </p>
 <hr>
-
-##  Quick Links
-
-> - [ Overview](#-overview)
-> - [ Repository Structure](#-repository-structure)
-> - [ Getting Started](#-getting-started)
->   - [ Installation](#-installation)
->   - [ Training Model for Text Summarization](#-training-Model-for-Text-Summarization)
->   - [ Running Web App](#-running-Web-App)
-> - [ Contributing](#-contributing)
-> - [ License](#-license)
-
 ---
 
 ##  Overview
@@ -181,9 +169,5 @@ Once your PR is reviewed and approved, it will be merged into the main branch.
 ##  License
 
 This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
-
----
-
-[**Return**](#-quick-links)
 
 ---
